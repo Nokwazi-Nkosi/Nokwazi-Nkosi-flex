@@ -1,0 +1,110 @@
+body{
+    background-color: #c4ebf9;
+    margin: 0;
+    padding: 2%;
+    height: 90vh;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: white;
+    
+    }
+    .mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    
+    
+    }
+    
+    .header{
+        background-color:#02bfb1;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+     
+     
+    }
+    .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:3%;
+    height:70%;
+    
+    }
+    
+    .leftSide{
+        width:30%;
+        height: 100%;  
+        background-color:#6edb6e;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+    
+    }
+    .rightSide{
+    width: 70%;
+    height: 100%;
+    background-color: #fbb04c;
+    display: flex;
+    flex-direction: column;
+    
+    
+    }
+    .bottom{
+    height: 60%;
+    
+    
+    }
+    .top{
+        height: 40%;
+      
+    
+    }
+    .footer{
+        background-color:#02bfb1;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    
+    
+    }
+    
+    
+    .article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    height: 20%;
+    
+    }
+    .img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 70%;
+    padding: 3%;
+    
+    
+    }
+    .box{
+    width: 30%;
+    height: 80%;
+    background-color: #fcd24a;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    
+    }
